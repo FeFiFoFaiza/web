@@ -14,7 +14,10 @@ body {
   margin-right: 50px;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: fantasy;
   font-weight: 900;
 }
@@ -23,7 +26,7 @@ h1, h2, h3, h4 {
   background: white;
   margin-bottom: 15px;
   margin-top: 85px;
-  padding:15px;
+  padding: 15px;
 }
 
 img {
@@ -34,18 +37,18 @@ img {
   display: block;
 }
 
-.right{
+.right {
   float: right;
   width: 15%;
 }
 
-.right img{
+.right img {
   max-width: 100%;
   height: auto;
 }
-.left{
+.left {
   float: left;
-  width: 80%
+  width: 80%;
 }
 
 nav {
@@ -57,7 +60,7 @@ nav {
 nav a {
   float: left;
   font-size: 16px;
-  color:black;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -72,24 +75,23 @@ nav a {
   font-size: 16px;
   border: none;
   outline: none;
-  color:black;
+  color: black;
   padding: 14px 16px;
-  background-color:white;
+  background-color: white;
 }
 
-nav a:hover, .dropdown:hover .dropbtn {
+nav a:hover,
+.dropdown:hover .dropbtn {
   background-color: grey;
 }
-
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-
 
 .dropdown-content a {
   float: none;
@@ -100,13 +102,18 @@ nav a:hover, .dropdown:hover .dropbtn {
   text-align: left;
 }
 
-
 .dropdown-content a:hover {
-  background-color: grey;
+  background-color: #ddd;
 }
-
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+.active {
+  color: grey;
+}
+
+.dropdown-content .active {
+  color: grey;
+}

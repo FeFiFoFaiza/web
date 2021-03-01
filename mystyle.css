@@ -107,5 +107,9 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: grey;
+}
+
+.active {
+  color: grey
 }
